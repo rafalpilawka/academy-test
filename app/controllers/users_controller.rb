@@ -11,5 +11,8 @@ class UsersController < ApplicationController
       redirect_to :back, :alert => "Access denied."
     end
   end
-
+private
+def user_params
+      params.require(:user).permit(:name  ,:age , :city_id)
+    end  
 end
