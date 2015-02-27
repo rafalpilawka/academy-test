@@ -3,9 +3,9 @@ Rails.application.routes.draw do
   get '/all_users', to: 'users#index'
   devise_for :users
 
-  
-  resources :users
-  resources :cities
+
+   resources :users
+   resources :cities
 
 
 end
