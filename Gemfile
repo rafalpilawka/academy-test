@@ -7,6 +7,10 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
@@ -36,3 +40,4 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
 end
+
